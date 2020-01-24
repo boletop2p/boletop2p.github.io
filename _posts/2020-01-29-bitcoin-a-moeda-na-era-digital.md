@@ -1,7 +1,7 @@
 ---
 title: Bitcoin - a moeda na era digital
 author_staff_member: anonimo
-date: 2020-01-31
+date: 2020-01-29
 featured_image: https://boletop2p.github.io/images/bitcoi-a-moeda-na-era-digital.png
 ---
 

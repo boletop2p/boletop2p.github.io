@@ -1,7 +1,7 @@
 ---
 title: O que é Bitcoin?
 author_staff_member: anonimo
-date: 2020-01-29
+date: 2020-01-31
 featured_image:  https://boletop2p.github.io/images/o-que-e-bitcoin.png
 ---
 
