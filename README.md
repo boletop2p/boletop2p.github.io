@@ -1,1 +1,1 @@
-# [BoletoP2P](http://boleto2p2.com/)
+# [BoletoP2P](http://boletop2p.com/)
