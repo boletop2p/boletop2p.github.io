@@ -22,8 +22,8 @@ collections:
     _hide_content: true
     _options:
       image:
-        width: 250
-        height: 250
+        width: 256
+        height: 256
 
 permalink: pretty
 
