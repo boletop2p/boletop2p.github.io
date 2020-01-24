@@ -1,8 +1,8 @@
 ---
-title: Bitcoin - a moeda na era digital
+title: Bitcoin - a moeda na era digital.
 author_staff_member: anonimo
 date: 2020-01-29
-featured_image: https://boletop2p.github.io/images/bitcoi-a-moeda-na-era-digital.png
+featured_image: https://boletop2p.github.io/images/bitcoin-a-moeda-na-era-digital.png
 ---
 
 ##### O bitcoin é uma moeda com a mesma utilidade do real ou do dólar, mas com algumas diferenças importantes:

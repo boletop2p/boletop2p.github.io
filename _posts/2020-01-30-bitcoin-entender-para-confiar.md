@@ -1,5 +1,5 @@
 ---
-title: Entender Para Confiar
+title: Entender Para Confiar.
 author_staff_member: anonimo
 date: 2020-01-30
 featured_image:  https://boletop2p.github.io/images/entender-para-confiar.png
