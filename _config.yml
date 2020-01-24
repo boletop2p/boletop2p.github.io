@@ -1,5 +1,6 @@
+# ----
 title: BoletoP2P
-url: /
+url: https://boletop2p.com
 baseurl:
 google_analytics_key:
 
@@ -36,8 +37,8 @@ defaults:
       layout: "post"
       _options:
         content:
-          width: 1880
-          height: 1880
+          width: 256
+          height: 256
           uploads_dir: "/images/posts/"
   -
     scope:
@@ -61,3 +62,4 @@ _options:
   header_background_image:
     width: 1880
     height: 1880
+# ----
