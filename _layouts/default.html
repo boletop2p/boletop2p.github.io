@@ -30,10 +30,12 @@
 			{{ content }}
 		</div>
 		<footer>
-			<p class="editor-link" style="margin-bottom: 20px;"><a href="cloudcannon:collections/_data/company.yml" class="btn"><strong>&#9998;</strong> Update footer</a></p>
+			<p class="editor-link" style="margin-bottom: 20px;"><a href="boletop2p:collections/_data/company.yml" class="btn"><strong>&#9998;</strong> Update footer</a></p>
 			<div class="container">
 				<div class="about">
+					<p>{{ site.data.company.company_name: }}</p>
 					<p>{{ site.data.company.mission_statement }}</p>
+					<p>{{ site.data.company.cnpj }}</p>
 				</div>
 
 				<div class="contact">
@@ -58,18 +60,34 @@
 					<a class="facebook" href="https://www.facebook.com/{{ site.data.company.facebook }}">
 						{% include icons/social-media.html social_icon="facebook" %}
 					</a>
+					<a class="instagram" href="https://instagram.com/{{ site.data.company.instagram }}">
+						{% include icons/social-media.html social_icon="instagram" %}
+					</a>
+					<a class="linkedin" href="https://linkedin.com/{{ site.data.company.linkedin }}">
+						{% include icons/social-media.html social_icon="linkedin" %}
+					</a>
 					<a class="twitter" href="https://twitter.com/{{ site.data.company.twitter }}">
 						{% include icons/social-media.html social_icon="twitter" %}
 					</a>
-					<a class="youtube" href="https://youtube.com/{{ site.data.company.youtube }}">
-						{% include icons/social-media.html social_icon="youtube" %}
+					<a class="telegram" href="https://t.me/{{ site.data.company.telegram }}">
+						{% include icons/social-media.html social_icon="telegram" %}
 					</a>
+					<a class="whatsapp" href="https://https://wa.me/{{ site.data.company.whatsapp }}">
+						{% include icons/social-media.html social_icon="whatsapp" %}
+					</a>
+					<a class="tox" href="https://toxme.io/u/{{ site.data.company.tox }}">
+						{% include icons/social-media.html social_icon="tox" %}
+					</a>
+					<a class="gpg" href="https://raw.githubusercontent.com/wallisonalves/wallisonalves.github.io/master/assets/{{ site.data.company.gpg }}">
+						{% include icons/social-media.html social_icon="gpg" %}
+					</a>
+					
 				</div>
 			</div>
 		</footer>
 		<p class="copyright">
-			<a href="https://cloudcannon.com/">
-				Template by CloudCannon
+			<a href="https://boletop2p.com/">
+				BoletoP2P
 			</a>
 		</p>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

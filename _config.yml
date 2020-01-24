@@ -1,25 +1,18 @@
-# ----
-# Site
-
 title: BoletoP2P
 url: /
 baseurl:
 google_analytics_key:
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Jekyll template with example content for a not-for-profit organisation.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+description: Levando o bitcoin às pessoas “desbancarizadas”!
+author: 
+  name: Wallison Alves
+  email: contato@boletop2p.com
+  twitter: boletop2p
 social:
-  name: Cause Template
+  name: BoletoP2P
   links:
-    - https://github.com/CloudCannon/cause-jekyll-template
-
-# -----
-# Build
+    - https://github.com/boletop2p/boletop2p.github.io
 
 timezone: Etc/UTC
 
@@ -52,8 +45,7 @@ defaults:
     values:
       layout: "default"
 
-donation_embed: '<script src="https://donorbox.org/widget.js" type="text/javascript"></script><iframe src="https://donorbox.org/embed/give-sheep-the-vote?hide_donation_meter=true" height="685px" width="100%" style="max-width:425px; min-width:310px" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no"></iframe>'
-newsletter_action: "//your-mailchimp-action-url.com"
+buying_embed: '<script src="https://donorbox.org/widget.js" type="text/javascript"></script><iframe src="https://donorbox.org/embed/give-sheep-the-vote?hide_donation_meter=true" height="685px" width="100%" style="max-width:425px; min-width:310px" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no"></iframe>'
 
 plugins:
   - jekyll-sitemap
@@ -65,13 +57,7 @@ exclude:
   - README.md
   - LICENCE
 
-# -----------
-# CloudCannon
-
 _options:
   header_background_image:
-    width: 1880
-    height: 1880
-  newsletter_background_image:
     width: 1880
     height: 1880
