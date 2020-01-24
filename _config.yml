@@ -1,4 +1,4 @@
-title: "BoletoP2P"
+title: BoletoP2P
 url: https://boletop2p.com
 baseurl:
 google_analytics_key:
@@ -45,7 +45,7 @@ defaults:
     values:
       layout: "default"
 
-buying_embed: '<iframe frameborder="0" style="height:480px;width:50%;border:none;" src='https://forms.zohopublic.com/wado/form/obtervpn/formperma/JVxJ4b8wWUUayZo9daMY_NdxWlWtWCICjX-Hxk_lCbE'></iframe>'
+buying_embed: '<iframe frameborder="0" style="height:480px;width:50%;border:none;" src="https://forms.zohopublic.com/wado/form/obtervpn/formperma/JVxJ4b8wWUUayZo9daMY_NdxWlWtWCICjX-Hxk_lCbE"></iframe>'
 
 plugins:
   - jekyll-sitemap
