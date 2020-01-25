@@ -4,7 +4,7 @@ baseurl:
 google_analytics_key:
 
 logo: /siteicon.svg
-description: Levando o bitcoin às pessoas “desbancarizadas”!
+description: Levar o bitcoin às pessoas “desbancarizadas”!
 author: 
   name: Wallison Alves
   email: contato@boletop2p.com
@@ -36,8 +36,8 @@ defaults:
       layout: "post"
       _options:
         content:
-          width: 768
-          height: 768
+          width: 384
+          height: 384
           uploads_dir: "/images/posts/"
   -
     scope:
@@ -59,5 +59,5 @@ exclude:
 
 _options:
   header_background_image:
-    width: 768
-    height: 768
+    width: 384
+    height: 384
