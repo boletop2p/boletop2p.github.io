@@ -22,8 +22,8 @@ collections:
     _hide_content: true
     _options:
       image:
-        width: 384
-        height: 384
+        width: 256
+        height: 256
 
 permalink: pretty
 
@@ -36,8 +36,8 @@ defaults:
       layout: "post"
       _options:
         content:
-          width: 256
-          height: 256
+          width: 384
+          height: 384
           uploads_dir: "/images/posts/"
   -
     scope:
