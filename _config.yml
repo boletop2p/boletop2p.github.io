@@ -36,8 +36,8 @@ defaults:
       layout: "post"
       _options:
         content:
-          width: 384
-          height: 384
+          width: 256
+          height: 256
           uploads_dir: "/images/posts/"
   -
     scope:
@@ -45,7 +45,7 @@ defaults:
     values:
       layout: "default"
 
-buying_embed: '<iframe frameborder="0" style="height:100%;width:100%;border:none;" src="https://forms.zohopublic.com/wado/form/obtervpn/formperma/JVxJ4b8wWUUayZo9daMY_NdxWlWtWCICjX-Hxk_lCbE"></iframe>'
+buying_embed: '<iframe frameborder="0" style="height:100%;width:768px;border:none;" src="https://forms.zohopublic.com/wado/form/obtervpn/formperma/JVxJ4b8wWUUayZo9daMY_NdxWlWtWCICjX-Hxk_lCbE"></iframe>'
 
 plugins:
   - jekyll-sitemap
