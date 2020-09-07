@@ -35,7 +35,6 @@
 				<div class="about">
 					<p>{{ site.data.company.company_name: }}</p>
 					<p>{{ site.data.company.mission_statement }}</p>
-					<p>{{ site.data.company.cnpj }}</p>
 				</div>
 
 				<div class="contact">
@@ -49,11 +48,6 @@
 							{% include icons/footer.html icon="phone" %} {{ site.data.company.phone }}
 						</a>
 					</p>
-					<address>
-						<a href="https://www.google.com/maps/place/{{ site.data.company.address | url_encode }}">
-							{% include icons/footer.html icon="place" %} {{ site.data.company.address }}
-						</a>
-					</address>
 				</div>
 
 				<div class="sharing">
@@ -75,13 +69,16 @@
 					<a class="whatsapp" href="https://https://wa.me/{{ site.data.company.whatsapp }}">
 						{% include icons/social-media.html social_icon="whatsapp" %}
 					</a>
+					<a class="mastodon" href="https://liberdon.com/@{{ site.data.company.mastodon }}">
+						{% include icons/social-media.html social_icon="mastodon" %}
+					</a>
 					<a class="tox" href="https://toxme.io/u/{{ site.data.company.tox }}">
 						{% include icons/social-media.html social_icon="tox" %}
 					</a>
 					<a class="gpg" href="https://raw.githubusercontent.com/wallisonalves/wallisonalves.github.io/master/assets/{{ site.data.company.gpg }}">
 						{% include icons/social-media.html social_icon="gpg" %}
 					</a>
-					
+
 				</div>
 			</div>
 		</footer>
