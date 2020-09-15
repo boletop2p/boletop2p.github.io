@@ -45,7 +45,7 @@ defaults:
     values:
       layout: "default"
 
-buying_embed: '<iframe frameborder="0" style="height:768px;width:100%;border:none;" src="https://forms.zohopublic.com/wado/form/obtervpn/formperma/JVxJ4b8wWUUayZo9daMY_NdxWlWtWCICjX-Hxk_lCbE"></iframe>'
+buying_embed: '<iframe frameborder="0" style="height:768px;width:100%;border:none;" src="https://forms.zohopublic.com/wado/form/BoletoP2P/formperma/78qIsZnJWCisxFUSPWnZbJScDf-bm9ChKzksoaGDm_Q"></iframe>'
 
 plugins:
   - jekyll-sitemap
